@@ -1,0 +1,47 @@
+<transaction_form> 
+    <transactions>    
+        <transaction_info  id = "AS310">    
+            <borrower_id>STUD-29378</borrower_id>
+            <borrower_name>Dela Cruz</borrower_name>
+            <gender>MALE</gender>
+            <age>20</age>
+            <borrowed_time>Sept 15, 2021</borrowed_time>
+            <status>NOT YET RETURNED</status>
+            <due_date>Sept 25, 2023</due_date>
+            <return_date>   </return_date>
+        </transaction_info>    
+        <borrowed_books>
+            <book id = "1001">
+                <batch_id>139</batch_id>
+                <title>Humpty Dumpty</title>
+                <kamot_ni_sir>👋</kamot_ni_sir>
+                <authors>
+                    <author>Newport</author>
+                    <author>Cat</author>
+                    <author>Ben</author>
+                </authors>
+            </book>
+            <book id = "1002">
+                <batch_id>105</batch_id>
+                <title>The hard thing blah blah blah</title>
+                <kamot_ni_sir>👋</kamot_ni_sir>
+                <authors>
+                    <author>Knight</author>
+                    <author>P+A</author>
+                </authors>
+            </book>
+            <book id = "1003">
+                <batch_id>101</batch_id>
+                <title>Slim Shady</title>
+                <kamot_ni_sir>👋</kamot_ni_sir>
+                <authors>
+                    <author>Random Person</author>
+                    <author>Brandon</author>
+                    <author>Neiladnasd</author>
+                    <author>Andy</author>
+                    <author>blah blah blah</author>
+                </authors>
+            </book>
+        </borrowed_books>
+    </transactions>    
+ </transaction_form>
