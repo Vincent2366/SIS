@@ -1,0 +1,35 @@
+transaction_form:
+  transactions:
+    transaction_info:
+      id: AS310
+      borrower_id: STUD-29378
+      borrower: Dela Cruz
+      gender: MALE
+      age: 20
+      borrowed_time: Sept 15, 2021
+      status: NOT YET RETURNED
+      due_date: Sept 25, 2023
+      return_date: null
+    borrowed_books:
+      - book_id: 1001
+        batch: 139
+        title: Humpty Dumpty
+        kamot_ni_sir: 👋
+        authors:
+          - Newport
+          - Cat
+          - Ben
+      - book_id: 1002
+        batch: 105
+        title: The hard thing blah blah blah
+        kamot_ni_sir: 👋
+        authors:
+          - Knight
+          - P+A
+      - book_id: 1003
+        batch: 101
+        title: Slim Shady
+        kamot_ni_sir: 👋
+        authors:
+          - Random Person
+          - Brandon
