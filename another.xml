@@ -1,4 +1,5 @@
 <transaction_form> 
+<top_right_text></top_right_text>
     <transactions>    
         <transaction_info  id = "AS310">    
             <borrower_id>STUD-29378</borrower_id>
