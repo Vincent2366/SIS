@@ -1,40 +1,34 @@
 {
-    "transaction_form": {
-        "transactions": {
-            "transaction_info": {
-                "id": "AS310",
-                "borrower_id": "STUD-29378",
-                "borrower": "Dela Cruz",
-                "gender": "MALE",
-                "age": 20,
-                "borrowed_time": "Sept 15, 2021",
-                "status": "NOT YET RETURNED",
-                "due_date": "Sept 25, 2023",
-                "return_date": null
+    "book_card_info": {
+        "transaction_id": "AB31D",
+        "borrower_id": "STUD21378",
+        "complete_name": "Dela Cruz, Juan",
+        "address": "123 Main St",
+        "gender": "Male",
+        "age": 23,
+        "borrowed_date": "10/04/2024",
+        "status": "NOT YET RETURNED",
+        "due_date": "10/10/2024",
+        "return_date": "-",
+        "borrowed_books": [
+            {
+                "batch_id": "0001",
+                "book_id": "B101",
+                "book_title": "The Holy Bible",
+                "book_authors": ["Author1", "Author2", "Author3"]
             },
-            "borrowed_books": [
-                {
-                    "book_id": 1001,
-                    "batch": 139,
-                    "title": "Humpty Dumpty",
-                    "kamot_ni_sir": "👋",
-                    "authors": ["Newport", "Cat", "Ben"]
-                },
-                {
-                    "book_id": 1002,
-                    "batch": 105,
-                    "title": "The hard thing blah blah blah",
-                    "kamot_ni_sir": "👋",
-                    "authors": ["Knight", "P+A"]
-                },
-                {
-                    "book_id": 1003,
-                    "batch": 101,
-                    "title": "Slim Shady",
-                    "kamot_ni_sir": "👋",
-                    "authors": ["Random Person", "Brandon"]
-                }
-            ]
-        }
+            {
+                "batch_id": "0002",
+                "book_id": "B102",
+                "book_title": "Songs of Ice and Fire",
+                "book_authors": ["Author1", "Author2", "Author3"]
+            },
+            {
+                "batch_id": "0003",
+                "book_id": "B103",
+                "book_title": "The Lesser Key of Solomon",
+                "book_authors": ["Author1", "Author2", "Author3"]
+            }
+        ]
     }
 }
