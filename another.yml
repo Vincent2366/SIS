@@ -1,38 +1,39 @@
-transaction_id: AB31D
-borrower_id: STUD 21378
-complete_name: Dela Cruz, Juan
-address: 123 Main St.
+book_card_info:
+  transaction_id: AB31D
+  borrower_id: STUD 21378
+  complete_name: Dela Cruz, Juan
+  address: 123 Main St.
 
-gender: Male
-age: 23
-borrowed_date: 10/04/2024
+  gender: Male
+  age: 23
+  borrowed_date: 10/04/2024
 
-status: NOT YET RETURNED
-due_date: 10/10/2024
-return_date: -
+  status: NOT YET RETURNED
+  due_date: 10/10/2024
+  return_date: -
 
-borrowed_books:
-  - row_1:
-      batch_id: 0001
-      book_id: B101
-      book_title: The Holy Bible
-      book_authors:
-        - author_1
-        - author_2
-        - author_3
-  - row_2:
-      batch_id: 0002 
-      book_id: B102
-      book_title: Songs of Ice and Fire
-      book_authors:
-        - author_1
-        - author_2
-        - author_3
-  - row_3:
-      batch_id: 0003
-      book_id: B103
-      book_title: The Lesser key of Solomon
-      book_authors:
-        - author_1
-        - author_2
-        - author_3
+  borrowed_books:
+    - row_1:
+        batch_id: 0001
+        book_id: B101
+        book_title: The Holy Bible
+        book_authors:
+          - author_1
+          - author_2
+          - author_3
+    - row_2:
+        batch_id: 0002 
+        book_id: B102
+        book_title: Songs of Ice and Fire
+        book_authors:
+          - author_1
+          - author_2
+          - author_3
+    - row_3:
+        batch_id: 0003
+        book_id: B103
+        book_title: The Lesser key of Solomon
+        book_authors:
+          - author_1
+          - author_2
+          - author_3
